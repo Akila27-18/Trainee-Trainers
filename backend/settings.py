@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 CORS_ALLOWED_ORIGINS = [
-    "https://your-frontend-domain.com",
+    "https://trainee-trainers.onrender.com",
 ]
 
  
