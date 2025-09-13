@@ -1,11 +1,10 @@
 {
-  "projects": [
+  "builds": [
     {
-      "src": "frontend",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist"
-      }
+      "src": "frontend/package.json",
+      "use": "@vercel/next"
     }
-  ]
+  ],
+  "framework": "vite",
+  "ignoreCommand": "echo 'Ignore backend for Vercel'"
 }
